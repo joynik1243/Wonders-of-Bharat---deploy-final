@@ -1,0 +1,307 @@
+[
+  {
+    "name": "Lad Khan Temple",
+    "location": "Aihole, Karnataka",
+    "date_built": "4th-5th century CE (estimated)",
+    "description": "A Chalukyan era temple dedicated to Shiva, known for its intricate carvings.",
+    "image": "[Image Search: Lad Khan Temple, Aihole]" // Search for high-quality image
+  },
+  {
+    "name": "Halasuru Someshwara Temple",
+    "location": "Bangalore, Karnataka",
+    "date_built": "7th century CE (estimated)",
+    "description": "A small but significant Shiva temple with a unique pyramidal roof.",
+    "image": "[Image Search: Halasuru Someshwara Temple, Bangalore]" // Search for high-quality image
+  },
+  {
+    "name": "Bhoganandeeshwara Temple",
+    "location": "Chikballapur, Karnataka",
+    "date_built": "8th-9th century CE (estimated)",
+    "description": "A pre-Chalukyan era temple with a unique stepped pyramid tower (Vimana).",
+    "image": "[Image Search: Bhoganandeeshwara Temple, Chikballapur]" // Search for high-quality image
+  },
+  {
+    "name": "Shiva Temple, Bhumara",
+    "location": "Bhumara, Madhya Pradesh",
+    "date_built": "5th-6th century CE (estimated)",
+    "description": "A Gupta era temple with exquisite carvings and one of the oldest surviving Ganesha idols.",
+    "image": "[Image Search: Shiva Temple, Bhumara]" // Search for high-quality image
+  },
+  {
+    "name": "Lingaraj Temple",
+    "location": "Bhubaneswar, Odisha",
+    "date_built": "7th-11th century CE (estimated)",
+    "description": "A massive Shiva temple, one of the oldest and largest in Bhubaneswar, known for its intricate Kalinga architecture.",
+    "image": "[Image Search: Lingaraj Temple, Bhubaneswar]" // Search for high-quality image
+  },
+  {
+    "name": "Vaishno Devi Mandir",
+    "location": "Katra, Jammu and Kashmir",
+    "date_built": "Unknown (possibly 1st century CE or earlier)",
+    "description": "A cave shrine dedicated to Durga, a popular pilgrimage site with a mysterious origin.",
+    "image": "[Image Search: Vaishno Devi Mandir, Katra]" // Search for high-quality image
+  },
+  {
+    "name": "Kailashnath Temple",
+    "location": "Ellora, Maharashtra",
+    "date_built": "8th-10th century CE (estimated)",
+    "description": "A monolithic rock-cut temple dedicated to Shiva, one of the largest such structures in the world.",
+    "image": "[Image Search: Kailashnath Temple, Ellora]" // Search for high-quality image
+  },
+  {
+    "name": "Shore Temple",
+    "location": "Mahabalipuram, Tamil Nadu",
+    "date_built": "7th-8th century CE (estimated)",
+    "description": "A group of Pallava era temples, including a shore temple dedicated to Shiva, a UNESCO World Heritage Site.",
+    "image": "[Image Search: Shore Temple, Mahabalipuram]" // Search for high-quality image
+  },
+  {
+    "name": "Thiruvaragunamangai Perumal Temple",
+    "location": "Kanchipuram, Tamil Nadu",
+    "date_built": "6th-7th century CE (estimated)",
+    "description": "A Vishnu temple known for its early Dravidian architecture and sprawling complex.",
+    "image": "[Image Search: Thiruvaragunamangai Perumal Temple, Kanchipuram]" // Search for high-quality image
+  },
+  {
+    "name": "Brihadisvara Temple (Big Temple)",
+    "location": "Thanjavur, Tamil Nadu",
+    "date_built": "10th-11th century CE",
+    "description": "A UNESCO World Heritage Site, a massive Chola era"
+  },
+  {
+    "name": "Meenakshi Temple",
+    "location": "Madurai, Tamil Nadu",
+    "date_built": "Estimated 6th-10th century CE",
+    "description": "A vast and colorful Dravidian temple complex dedicated to Parvati (Shakti).",
+    "image": "[Image Search: Meenakshi Temple, Madurai]"
+  },
+  {
+    "name": "Jagannath Temple",
+    "location": "Puri, Odisha",
+    "date_built": "Estimated 12th-16th century CE",
+    "description": "A major Hindu pilgrimage site dedicated to Krishna, Balarama, and Subhadra.",
+    "image": "[Image Search: Jagannath Temple, Puri]"
+  },
+  {
+    "name": "Rameshwaram Temple",
+    "location": "Tamil Nadu",
+    "date_built": "Estimated 11th-12th century CE",
+    "description": "A pilgrimage site dedicated to Shiva, with long corridors and a Ramanathaswamy temple complex.",
+    "image": "[Image Search: Rameshwaram Temple, Tamil Nadu]"
+  },
+  {
+    "name": "Virupaksha Temple",
+    "location": "Hampi, Karnataka",
+    "date_built": "Estimated 7th-16th century CE",
+    "description": "A group of temples dedicated to Shiva on the banks of the Tungabhadra River, part of the Vijayanagara empire's ruins.",
+    "image": "[Image Search: Virupaksha Temple, Hampi]"
+  },
+  {
+    "name": "Konark Sun Temple",
+    "location": "Odisha",
+    "date_built": "Estimated 13th century CE",
+    "description": "A UNESCO World Heritage Site, once a grand sun chariot temple dedicated to Surya, now partially ruined.",
+    "image": "[Image Search: Konark Sun Temple, Odisha]"
+  },
+  {
+    "name": "Mundeshwari Devi Temple",
+    "location": "Kaimur district, Bihar",
+    "date_built": "Estimated 625 CE (possibly older)",
+    "description": "An octagonal shaped temple dedicated to Devi Mundeshwari and Shiva, considered one of the oldest functional temples in India.",
+    "image": "[Image Search: Mundeshwari Devi Temple, Kaimur district]"
+  },
+  {
+    "name": "Mukteshwar Temple",
+    "location": "Kanchipuram, Tamil Nadu",
+    "date_built": "10th century CE",
+    "description": "A Pallava era temple known for its intricate carvings and dedication to Vishnu.",
+    "image": "[Image Search: Mukteshwar Temple, Kanchipuram]"
+  },
+  {
+    "name": "Kedareshwar Temple",
+    "location": "Kedarnath, Uttarakhand",
+    "date_built": "Unknown (possibly 8th-11th century CE)",
+    "description": "A Shiva temple located in the Himalayas, one of the Chota Char Dham pilgrimage sites.",
+    "image": "[Image Search: Kedareshwar Temple, Kedarnath]"
+  },
+  {
+    "name": "Mahabodhi Temple",
+    "location": "Bodh Gaya, Bihar",
+    "date_built": "3rd century BCE (estimated)",
+    "description": "A UNESCO World Heritage Site, one of the holiest Buddhist sites marking the place where Buddha attained enlightenment."
+  },
+  {
+    "name": "Dhanushkodi Temple",
+    "location": "Tamil Nadu",
+    "date_built": "Unknown (possibly 11th-12th century CE)",
+    "description": "A ruined temple dedicated to Rama, believed to be submerged in the sea due to mythological events."
+  },
+  {
+    "name": "Hazratbal Shrine",
+    "location": "Srinagar, Jammu and Kashmir",
+    "date_built": "17th century CE",
+    "description": "A revered Muslim shrine housing a holy relic of Prophet Muhammad's hair."
+  },
+  {
+    "name": "Khajuraho Temples",
+    "location": "Madhya Pradesh",
+    "date_built": "9th-12th century CE",
+    "description": "A UNESCO World Heritage Site, a group of Hindu and Jain temples known for their intricate carvings and erotic sculptures."
+  },
+  {
+    "name": "Jagatpita Brahma Mandir",
+    "location": "Pushkar, Rajasthan",
+    "date_built": "Unknown (possibly 4th century CE)",
+    "description": "A rare temple dedicated to Lord Brahma, the creator god in Hinduism."
+  },
+  {
+    "name": "Tungnath Temple",
+    "location": "Rudraprayag district, Uttarakhand",
+    "date_built": "Unknown (possibly 12th-13th century CE)",
+    "description": "The highest Shiva temple in the world, located in the Himalayas, part of the Panch Kedar pilgrimage."
+  },
+  {
+    "name": "Mahabalipuram Caves",
+    "location": "Mahabalipuram, Tamil Nadu",
+    "date_built": "7th-8th century CE (estimated)",
+    "description": "A group of rock-cut cave temples with sculptures depicting Hindu mythology, including the Varaha Cave."
+  },
+  {
+    "name": "Martand Sun Temple",
+    "location": "Anantnag district, Jammu and Kashmir",
+    "date_built": "3rd-8th century CE (estimated)",
+    "description": "Ruins of an ancient Sun temple with unique architectural features, showcasing Greco-Roman influences."
+  },
+  {
+    "name": "Adi Kumbeshwarar Temple",
+    "location": "Kumbakonam, Tamil Nadu",
+    "date_built": "Chola period (estimated 6th-11th century CE)",
+    "description": "A Shiva temple known for its intricate architecture and one of the five grand temples of Shiva in Kumbakonam."
+  },
+  {
+    "name": "Chennakesava Temple",
+    "location": "Somanathpur, Karnataka",
+    "date_built": "12th century CE",
+    "description": "A Hoysala era temple dedicated to Vishnu, known for its elaborate carvings and star-shaped plan."
+  },
+  {
+    "name": "Rani ki Vav (Queen's Stepwell)",
+    "location": "Patan, Gujarat",
+    "date_built": "11th century CE",
+    "description": "A unique seven-story stepwell intricately carved with religious and secular figures, showcasing Maru-Gujarat architecture."
+  },
+  {
+    "name": "Kandariya Mahadeva Temple",
+    "location": "Khajuraho, Madhya Pradesh",
+    "date_built": "10th-11th century CE",
+    "description": "One of the most well-preserved temples in the Khajuraho group, dedicated to Shiva and known for its intricate carvings."
+  },
+  {
+    "name": "Lingaparvata Temple",
+    "location": "Siyamakha, Andhra Pradesh",
+    "date_built": "2nd century BCE - 2nd century CE (estimated)",
+    "description": "An ancient Buddhist stupa with Greco-Roman architectural influences, potentially one of the oldest surviving Buddhist monuments in India."
+  },
+  {
+    "name": "Belum Caves",
+    "location": "Belum Caves, Andhra Pradesh",
+    "date_built": "Natural caves, with Hindu temples built inside during the Gupta period (4th-6th century CE)",
+    "description": "A network of natural caves with speleothems (cave formations) and Hindu temples dedicated to various deities."
+  },
+  {
+    "name": "Sun Temple, Modhera",
+    "location": "Modhera, Gujarat",
+    "date_built": "11th century CE",
+    "description": "A ruined Sun temple showcasing Maru-Gurjar architecture, with a large reservoir and intricately carved gateway."
+  },
+  {
+    "name": "Govind Devji Temple",
+    "location": "Vrindavan, Uttar Pradesh",
+    "date_built": "16th century CE",
+    "description": "A vibrant Hindu temple dedicated to Krishna, known for its colorful paintings and devotional atmosphere."
+  },
+  {
+    "name": "Jama Masjid",
+    "location": "Delhi",
+    "date_built": "17th century CE",
+    "description": "One of the largest mosques in India, built by Mughal emperor Shah Jahan, known for its red sandstone and architectural grandeur."
+  },
+  {
+    "name": "Golden Temple (Harmandir Sahib)",
+    "location": "Amritsar, Punjab",
+    "date_built": "16th century CE",
+    "description": "The holiest shrine for Sikhs, a gilded spiritual and cultural center with a serene pool and a rich history."
+  },
+  {
+    "name": "Weerabhadra Temple",
+    "location": "Lepakshi, Andhra Pradesh",
+    "date_built": "16th century CE",
+    "description": "A Vijayanagara era temple with a unique monolithic pillar balancing on its edge and intricate carvings depicting various mythological stories."
+  },
+  {
+    "name": "Bahubali Gommateshwara",
+    "location": "Shravanabelagola, Karnataka",
+    "date_built": "10th century CE",
+    "description":  "A colossal Jain statue of Gommateshwara, the largest monolithic statue in India, carved out of pink granite."
+  },
+  {
+    "name": "Meenakshi Devi Temple",
+    "location": "Jakhani, Uttar Pradesh",
+    "date_built": "Unknown (possibly 8th-10th century CE)",
+    "description": "A North Indian temple dedicated to Parvati (Shakti), known for its intricate carvings and unique architectural style."
+  },
+  {
+    "name": "Mundeshwari Temple",
+    "location": "Bilaspur, Chhattisgarh",
+    "date_built": "Unknown (possibly 6th-8th century CE)",
+    "description": "An ancient temple dedicated to Shiva and Shakti, believed to be one of the oldest temples in Chhattisgarh."
+  },
+  {
+    "name": "Trimbakeshwar Shiva Temple",
+    "location": "Trimbak, Maharashtra",
+    "date_built": "12th-13th century CE (renovations on older structure)",
+    "description": "A Jyotirlinga temple dedicated to Shiva, located at the source of the Godavari River, a holy site for Hindus."
+  },
+  {
+    "name": "Koneshwaram Temple",
+    "location": "Tamil Nadu",
+    "date_built": "7th-8th century CE (estimated)",
+    "description": "A shore temple dedicated to Shiva, part of the Mamallapuram group of monuments, a UNESCO World Heritage Site."
+  },
+  {
+    "name": "Vitthoba Temple, Pandharpur",
+    "location": "Pandharpur, Maharashtra",
+    "date_built": "12th-13th century CE (estimated)",
+    "description":  "A major pilgrimage site dedicated to Vitthoba, a form of Krishna, known for its annual pilgrimage festival (Yatra)."
+  },
+  {
+    "name": "Rani Mahal",
+    "location": "Jhansi, Uttar Pradesh",
+    "date_built": "17th century CE",
+    "description": "A palace complex with a temple dedicated to Lakshmi, the goddess of prosperity, showcasing Mughal architecture."
+  },
+  {
+    "name": "Dakshineswar Kali Temple",
+    "location": "Kolkata, West Bengal",
+    "date_built": "18th century CE",
+    "description": "A temple dedicated to Kali, a fierce aspect of Parvati, known for its riverside location and vibrant atmosphere."
+  },
+  {
+    "name": "Jagannath Temple, Puri (Ratnagiri)",
+    "location": "Puri, Odisha",
+    "date_built": "Unknown (possibly 14th-15th century CE)",
+    "description": "A smaller temple dedicated to Jagannath within the Puri temple complex, known for its intricate carvings and unique Ratnagiri style."
+  },
+  {
+    "name": "Vaikom Mahadeva Temple",
+    "location": "Vaikom, Kerala",
+    "date_built": "Unknown (possibly 8th-9th century CE)",
+    "description": "A Shiva temple known for its elephant processions during festivals, a unique tradition in Kerala."
+  },
+  {
+    "name": "Annapurna Temple",
+    "location": "Varanasi, Uttar Pradesh",
+    "date_built": "Unknown (possibly 18th century CE)",
+    "description": "A temple dedicated to Annapurna, the goddess of food and nourishment, located near the Ganges River in Varanasi."
+  }
+]

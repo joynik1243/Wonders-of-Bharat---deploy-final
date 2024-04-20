@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonders Of Bharat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+
+<body class="d-flex text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <!-- Background image divs -->
+        <div class="background fade-in" style="background-image: url('https://images.unsplash.com/photo-1559521783-1d1599583485?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');"></div>
+        <div class="background fade-out" style="background-image: url('https://cdn.pixabay.com/photo/2014/06/29/19/55/agra-fort-379676_1280.jpg');"></div>
+
+
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-left mb-0 blackBack">Wonders Of Bharat</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-right">
+                    <a class="nav-link blackBack" aria-current="page" href="#">Home</a>
+                    <a class="nav-link blackBack" href="/tourSpots">Tourist Spots</a>
+                    <% if(!currentUser) { %>
+                    <a class="nav-link blackBack" href="/login">Login</a>
+                    <a class="nav-link blackBack" href="/register">Register</a>
+                    <% } else { %>
+                    <a class="nav-link blackBack" href="/logout">Logout</a>
+                    <% } %>
+                </nav>
+            </div>
+        </header>
+        <main class="px-3 main ">
+            <h1>Wonders Of Bharat</h1>
+            <p class="lead"> Welcome to Wonders Of Bharat! <br> Jump right in and explore India's Best Tourist Spots in Every City. <br>
+                While Travelling to a city, have you ever felt the need that someone just told you the best <br>
+                tourist hotSpots of that city and other tourist's experience of the place? <br>
+                Well this website tells you all the famous tourist hotspots of every city in India and fellow Tourist's experience. <br>
+                Feel Free to share Your experiences and add such tourist hotspots. 
+            </p>
+            <a href="/tourSpots" class="btn btn-lg btn-secondary font-weight-bold border-white bg-white">View
+                Toursit Spots</a>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+            <p>&copy; 2024 </p>
+        </footer>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+
+    <script> const images = <%- JSON.stringify(images) %>;</script>
+
+    <script>
+        
+        const backgrounds = document.querySelectorAll('.background');
+        let currentIndex = 0;
+        // const images = require("../public/homeImages.js");
+        console.log(images);
+
+        function changeBackground() {
+            const fadeOutBg = backgrounds[currentIndex % 2];
+            const fadeInBg = backgrounds[(currentIndex + 1) % 2];
+
+            fadeOutBg.classList.remove('fade-in');
+            fadeOutBg.classList.add('fade-out');
+
+            fadeInBg.classList.remove('fade-out');
+            fadeInBg.classList.add('fade-in');
+
+            let random = Math.floor(Math.random() * images.length);
+            fadeInBg.style.backgroundImage = images[random];
+
+            currentIndex++;
+        }
+
+        // Call the function initially
+        changeBackground();
+
+        // Call the function every 6 seconds
+        setInterval(changeBackground, 6000);
+    </script>
+</body>
+
+</html>

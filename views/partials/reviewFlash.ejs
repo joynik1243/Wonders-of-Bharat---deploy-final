@@ -1,0 +1,15 @@
+<!-- Review Added Success Flash -->
+<% if (reviewSuccess && reviewSuccess.length>0 ) { %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <%= reviewSuccess %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+  <% } %>
+
+<!-- Review Body empty Error -->
+<% if (reviewError && reviewError.length>0 ) { %>
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <%= reviewError %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>

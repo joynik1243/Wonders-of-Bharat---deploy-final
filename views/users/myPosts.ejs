@@ -1,0 +1,39 @@
+<% layout("layouts/boilerplate.ejs") %>
+
+<h1 class="text-center m-3">My Posts</h1>
+<br>
+<div class="card shadow m-3">
+        <%- include("../partials/flash") %>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <% allSpots.forEach(tourSpot => { %>
+                <div class="col">
+                    <div class="card shadow mb-3">
+                        <img src="<%= tourSpot.images.length > 0 ? tourSpot.images[0].url : 'https://t4.ftcdn.net/jpg/04/73/25/49/360_F_473254957_bxG9yf4ly7OBO5I0O5KABlN930GwaMQz.jpg' %>" class="card-img-top img-fluid" alt="<%= tourSpot.title %>">
+                        <div class="card-body d-flex flex-column">
+                        <h5 class="card-title"><%= tourSpot.title %></h5>
+                        <div class="mt-auto">
+                            <% if (tourSpot.reviews.length > 0) { %>
+                                <div class="d-flex justify-content-start align-items-center mb-2">
+                                    <span><strong class="fs-5"><%= Math.floor((tourSpot.totalRating * 10) / tourSpot.reviews.length) / 10 %></strong></span>
+                                    <p class="starability-result m-0 mx-2" data-rating="<%= Math.round(tourSpot.totalRating / tourSpot.reviews.length) %>"></p>
+                                    <p class="fs-5 m-0">(<%= tourSpot.reviews.length %>)</p>
+                                </div>
+                            <% } %>
+                            <!-- <p class="card-text mb-1"><%= tourSpot.description %></p> -->
+                            <p class="card-text">
+                                <small class="text-muted"><%= tourSpot.location %></small>
+                            </p>
+                            <a href="/tourSpots/<%= tourSpot._id %>" class="btn btn-primary mt-2">View <%= tourSpot.title %></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% }) %>
+    </div>
+</div>
+
+
+<!-- <script>
+    const tourSpots = <%- JSON.stringify(allSpots)%>;
+</script>
+<script src="/javascripts/clusterMap.js"></script> -->
