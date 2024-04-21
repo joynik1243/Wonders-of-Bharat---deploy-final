@@ -1,5 +1,5 @@
 // Initialize the map
-const map = L.map('cluster-map').setView([28.6139, 77.2090], 4); // Set the initial center and zoom level
+const map = L.map('cluster-map').setView([28.6139, 77.2090], 3); // Set the initial center and zoom level
 
 let darkMode = true; // Initially set to normal mode
 
